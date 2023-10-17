@@ -1,0 +1,83 @@
+footer {
+  background-color: beige;
+  height: 100%;
+  padding: 0 5vw;
+}
+
+footer section {
+  background-color: white;
+  display: grid;
+  gap: 30px;
+  padding: 0 2vw;
+  grid-template-columns: repeat(4, 1fr);
+  height: 100%;
+}
+
+footer section article h3 {
+  font-size: 1.6rem;
+  color: lightseagreen;
+  font-weight: 400;
+  margin-bottom: 2vh;
+}
+
+footer section p {
+  font-size: 1rem;
+  word-spacing: 3px;
+  margin-bottom: 2vh;
+}
+
+footer section p:nth-of-type(2) {
+  color: aquamarine;
+}
+
+footer section article .img {
+  margin-bottom: 5vh;
+}
+
+footer section article .img:nth-of-type(1) {
+  background: url("../../assets/img/frikadellen.jpeg") no-repeat center;
+  height: 30vh;
+  background-size: cover;
+}
+
+footer section article:nth-of-type(2) .img {
+  background: url("../../assets/img/glass.jpeg") no-repeat center;
+  height: 30vh;
+  background-size: cover;
+}
+
+footer section article:nth-of-type(3) .img {
+  background: url("../../assets/img/pizza.jpeg") no-repeat center;
+  height: 30vh;
+  background-size: cover;
+}
+
+footer section article:nth-of-type(4) .img {
+  background: url("../../assets/img/pizza2.jpeg") no-repeat center;
+  height: 30vh;
+  background-size: cover;
+}
+
+footer section article:nth-of-type(5) .img {
+  background: url("../../assets/img/salat.jpeg") no-repeat center;
+  height: 30vh;
+  background-size: cover;
+}
+
+footer section article:nth-of-type(6) .img {
+  background: url("../../assets/img/scampi.jpeg") no-repeat center;
+  height: 30vh;
+  background-size: cover;
+}
+
+footer section article:nth-of-type(7) .img {
+  background: url("../../assets/img/spagetthi.jpeg") no-repeat center;
+  height: 30vh;
+  background-size: cover;
+}
+
+footer section article:nth-of-type(8) .img {
+  background: url("../../assets/img/teller.jpeg") no-repeat center;
+  height: 30vh;
+  background-size: cover;
+}
