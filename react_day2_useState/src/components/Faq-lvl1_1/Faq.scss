@@ -1,0 +1,25 @@
+.displayNo {
+  display: none;
+}
+
+.faq {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+
+  .firstVis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 0;
+    button {
+      padding: 7px;
+    }
+  }
+
+  .faqContent {
+    padding: 10px 0;
+    border-top: 2px solid white;
+  }
+}
