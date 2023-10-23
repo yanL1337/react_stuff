@@ -1,0 +1,17 @@
+.active {
+  color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  nav {
+    background-color: tomato;
+    a {
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

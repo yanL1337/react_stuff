@@ -1,0 +1,25 @@
+.blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  .cardWrapper {
+    a {
+      text-decoration: none;
+      color: black;
+      border: 2px solid black;
+      padding: 10px;
+      font-size: 20px;
+    }
+    img {
+      max-width: 100%;
+      width: 30vw;
+      height: 45vh;
+    }
+  }
+}
+
+.blogWrapper {
+  img {
+    max-width: 100%;
+  }
+}
